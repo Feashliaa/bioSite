@@ -1,0 +1,42 @@
+#brain_img {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 285px;
+    /* move to the bottom right corner */
+    bottom: 0;
+    left: 0;
+    transform: translate(25%, -40%);
+
+    background: url(brain1.png);
+    border-radius: 145px;
+}
+
+#inner_peace {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 480px;
+    height: 270px;
+
+    bottom: 0;
+    left: 0;
+    transform: translate(175%, -40%);
+
+    background: url(inner_peace.png);
+    border: 2.5px solid #000000;
+    border-radius: 135px;
+}
+
+#book {
+    position: absolute;
+    width: 530px;
+    height: 360px;
+
+    right: 0;
+    top: 0;
+    transform: translate(-12.5%, 50%);
+
+    background: url(worn_book.png);
+}
