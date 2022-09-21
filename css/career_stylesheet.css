@@ -9,7 +9,7 @@
     left: 0;
     transform: translate(25%, -40%);
 
-    background: url(brain1.png);
+    background: url(../images/brain1.png);
     border-radius: 145px;
 }
 
@@ -24,7 +24,7 @@
     left: 0;
     transform: translate(175%, -40%);
 
-    background: url(inner_peace.png);
+    background: url(../images/inner_peace.png);
     border: 2.5px solid #000000;
     border-radius: 135px;
 }
@@ -38,5 +38,5 @@
     top: 0;
     transform: translate(-12.5%, 50%);
 
-    background: url(worn_book.png);
+    background: url(../images/worn_book.png);
 }
