@@ -192,7 +192,7 @@ div.pencil {
     left: 0;
     transform: translate(10%, 0);
 
-    background: url(../images/biography.jpg) no-repeat center center;
+    background: url("../images/biography.jpg") no-repeat center center;
     background-size: cover;
     backdrop-filter: blur(4px);
 
