@@ -1,0 +1,51 @@
+#dexter_1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 235px;
+    height: 425px;
+
+    top:0;
+    right:0;
+    transform: translate(-35%, 30%);
+
+    background: url(../images/dexter_1.png);
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+}
+
+#dexter_2 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 250px;
+    height: 350px;
+
+    top:0;
+    left:0;
+    transform: translate(10%, 160%);
+
+    background: url(../images/dexter_2_christmas.png);
+    border: 1px solid #000000;
+    border-radius: 130px;
+}
+
+#house_image {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 350px;
+    height: 350px;
+
+    /* move to the bottom right corner */
+    bottom: 0;
+    right: 0;
+    transform: translate(-150%, -17.5%);
+
+    background: url(../images/house.png);
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 125px;
+}

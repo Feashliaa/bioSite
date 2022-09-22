@@ -1,0 +1,67 @@
+#writing {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 0;
+    bottom: 0;
+    transform: translate(200%, -25%);
+
+    background: url(../images/writing.png);
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 65px;
+}
+
+#overwatch {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 370px;
+
+    left: 0;
+    bottom: 0;
+    transform: translate(25%, -25%);
+
+
+    background: url(../images/overwatch.png);
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 125px;
+}
+
+#pokemon {
+    position: absolute;
+    width: 240px;
+    height: 360px;
+
+    right: 0;
+    top: 0;
+    transform: translate(-25%, 50%);
+
+
+    background: url(../images/pokemon_1.png);
+    border: 2px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#text_container {
+    display: block;
+    position: absolute;
+    width: 65%;
+    height: 250px;
+
+    top: 0;
+    left: 0;
+
+    transform: translate(1.25%, 65%);
+
+    background: #C5C6EA;
+
+    /* put a shadow around the text container */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    border-radius: 20px;
+}
