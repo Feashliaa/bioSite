@@ -40,3 +40,39 @@
 
     background: url(../images/worn_book.png);
 }
+
+/* media queries */
+
+/* at a height of 825px, the book image will disappear */
+@media(max-height: 825px) {
+    #book {
+        display: none;
+    }
+}
+
+/* at a height of 810px, the brain image and inner peace image will disappear */
+@media(max-height: 810px) {
+    #brain_img {
+        display: none;
+    }
+
+    #inner_peace {
+        display: none;
+    }
+
+    #text_container {
+        /* transform down 50% of the height of the container */
+        transform: translateY(-25%);
+    }
+}
+
+/* at a height of 430px, the text container will disappear */
+@media(max-height: 430px) {
+    #text_container {
+        display: none;
+    }
+
+    a.next_button {
+        display: none;
+    }
+}

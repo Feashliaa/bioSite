@@ -5,8 +5,8 @@
     width: 235px;
     height: 425px;
 
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     transform: translate(-35%, 30%);
 
     background: url(../images/dexter_1.png);
@@ -23,9 +23,9 @@
     width: 250px;
     height: 350px;
 
-    top:0;
-    left:0;
-    transform: translate(10%, 160%);
+    bottom: 0;
+    left: 0;
+    transform: translate(10%, -15%);
 
     background: url(../images/dexter_2_christmas.png);
     border: 1px solid #000000;
@@ -48,4 +48,40 @@
     border: 1px solid #000000;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 125px;
+}
+
+/* media queries */
+
+/* at 865px, the dexter_1 image will be hidden */
+@media(max-height: 865px) {
+    #dexter_1 {
+        display: none;
+    }
+}
+
+/* at 810px, the house image and dexter_2 image will be hidden */
+@media(max-height: 810px) {
+    #house_image {
+        display: none;
+    }
+
+    #dexter_2 {
+        display: none;
+    }
+
+    #text_container {
+        /* transform down 50% of the height of the container */
+        transform: translateY(-25%);
+    }
+}
+
+/* at a height of 430px, the text container will be hidden */
+@media(max-height: 430px) {
+    #text_container {
+        display: none;
+    }
+
+    a.next_button {
+        display: none;
+    }
 }

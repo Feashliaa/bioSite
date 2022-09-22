@@ -181,8 +181,6 @@ div.pencil {
     background-size: cover;
 }
 
-
-
 #bio_image_container {
 
     display: block;
@@ -289,7 +287,7 @@ div.contents_block_mobile {
         font-size: 5vw;
 
         /* move the text to the right */
-        transform: translate(5%, 400%);
+        transform: translate(5%, 100%);
     }
 
     /* make h2 part of the contents_block */
@@ -312,8 +310,8 @@ div.contents_block_mobile {
         width: 50%;
         height: 50%;
 
-        top: 65%;
-        left: 50%;
+        bottom: 0;
+        right: 0;
 
         /* set the background to nick.png, make it fit in the portrait div, and center it */
         background: url("../images/nick.png") no-repeat center center;
@@ -329,8 +327,7 @@ div.contents_block_mobile {
     }
 }
 
-/* do the same thing as above, but if the screen height is below max-height: 775px */
-@media screen and (max-height: 775px) {
+@media (max-width: 1500px) and (max-height: 775px) {
     .map {
         display: none;
     }
@@ -389,9 +386,9 @@ div.contents_block_mobile {
         display: block;
         position: absolute;
         width: 50%;
-        height: 75%;
+        height: 70%;
 
-        top: 65%;
+        top: 60%;
         left: 50%;
 
         /* set the background to nick.png, make it fit in the portrait div, and center it */
@@ -402,6 +399,81 @@ div.contents_block_mobile {
         border-radius: 20px;
     }
 }
+
+@media (max-width: 1700px) and (max-height: 775px) {
+
+    .map {
+        display: none;
+    }
+
+    .map img {
+        display: none;
+    }
+
+    .image_container {
+        display: none;
+    }
+
+    /* hide the text container */
+    #text_container {
+        display: none;
+    }
+
+    /* make a new contents block, use it as the main block in on screens 1000px or smaller */
+    div.contents_block_mobile {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 80%;
+
+        top: 20%;
+        left: 0;
+
+        background: #D9D9D9;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    div.contents_block_mobile ol li {
+
+        position: relative;
+        font-size: 4.5vw;
+
+        top: 0;
+        left: 5%;;      
+    }
+
+    /* make h2 part of the contents_block */
+    div.contents_block_mobile h2 {
+
+        /* position it in the top middle of the contents_block */
+        position: absolute;
+        top: -10%;
+        left: 40%;
+
+        font-size: 5vw;
+        text-decoration: underline;
+    }
+
+    /* have the portrait show up in the contents block */
+    div.contents_block_mobile .portrait {
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 70%;
+
+        top: 60%;
+        left: 50%;
+
+        /* set the background to nick.png, make it fit in the portrait div, and center it */
+        background: url("../images/nick.png") no-repeat center center;
+        background-size: cover;
+
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+}
+
 
 /* at 1920x1080, the text in the contents block will be increased in size */
 @media screen and (min-width: 1920px) {
@@ -512,7 +584,7 @@ div.contents_block_mobile {
 
     /* make the text box text bigger */
     div.text_box h3 {
-        font-size: 1.25vw;
+        font-size: 1.20vw;
 
         /* give the text a padding in the text box, left and right */
         padding: 0 5%;
@@ -521,7 +593,7 @@ div.contents_block_mobile {
         transform: translate(0, -5%);
     }
 
-    /* make the portraite smaller */
+    /* make the portrait smaller */
     div.portrait {
         width: 25%;
         height: 50%;

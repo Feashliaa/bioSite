@@ -44,3 +44,39 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 15px;
 }
+
+/* media queries */
+
+/* at a height of 810px, the text_container will disappear */
+@media screen and (max-height: 810px) {
+    #college {
+        display: none;
+    }
+
+    #writing {
+        display: none;
+    }
+
+    #text_container {
+        /* transform down 50% of the height of the container */
+        transform: translateY(-25%);
+    }
+}
+
+/* at a height of 685px, the thinking image will disappear */
+@media screen and (max-height: 685px) {
+    #thinking {
+        display: none;
+    }
+}
+
+/* at 430px, the next image will disappear */
+@media screen and (max-height: 430px) {
+    #text_container {
+        display: none;
+    }
+
+    a.next_button {
+        display: none;
+    }
+}
