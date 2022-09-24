@@ -80,3 +80,10 @@
         display: none;
     }
 }
+
+/* at a width of 1510px, the writing image will disappear */
+@media screen and (max-width: 1510px) {
+    #writing {
+        display: none;
+    }
+}

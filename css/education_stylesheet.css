@@ -80,3 +80,17 @@
         display: none;
     }
 }
+
+/* at 1410px wide, the writing image will disappear */
+@media screen and (max-width: 1410px) {
+    #writing {
+        display: none;
+    }
+}
+
+/* at 1320px wide, the thinking image will disappear */
+@media screen and (max-width: 1310px) {
+    #thinking {
+        display: none;
+    }
+}

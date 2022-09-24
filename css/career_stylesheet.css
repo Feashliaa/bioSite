@@ -76,3 +76,17 @@
         display: none;
     }
 }
+
+/* at a width of 1630px, the inner peace image will disappear */
+@media(max-width: 1630px) {
+    #inner_peace {
+        display: none;
+    }
+}
+
+/* at a width of 1285px, the book image will disappear */
+@media(max-width: 1285px) {
+    #book {
+        display: none;
+    }
+}

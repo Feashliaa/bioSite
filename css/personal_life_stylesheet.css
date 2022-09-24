@@ -85,3 +85,10 @@
         display: none;
     }
 }
+
+/* at a width of 1150px, the dexter_2 image will be hidden */
+@media(max-width: 1150px) {
+    #dexter_2 {
+        display: none;
+    }
+}
