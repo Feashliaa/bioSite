@@ -83,6 +83,8 @@ div.contents_block {
     height: 90%;
     width: 10%;
 
+    overflow: scroll;
+
     position: absolute;
     top: 50%;
     left: 0;
@@ -126,6 +128,8 @@ div.text_box {
     position: absolute;
     width: 70%;
     height: 90%;
+
+    overflow: scroll;
 
     top: 50%;
     left: 0;
