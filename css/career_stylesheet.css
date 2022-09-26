@@ -51,7 +51,7 @@
 }
 
 /* at a height of 810px, the brain image and inner peace image will disappear */
-@media(max-height: 810px) {
+@media(max-height: 895px) {
     #brain_img {
         display: none;
     }
@@ -80,6 +80,13 @@
 /* at a width of 1630px, the inner peace image will disappear */
 @media(max-width: 1630px) {
     #inner_peace {
+        display: none;
+    }
+}
+
+/* at a height of 470px, the text_container will disappear */
+@media screen and (max-height: 470px) {
+    #text_container {
         display: none;
     }
 }

@@ -58,7 +58,7 @@ body {
     border-radius: 83.5px;
 }
 
-@media(max-height: 810px) {
+@media(max-height: 895px) {
     #school_image {
         display: none;
     }
@@ -100,6 +100,13 @@ body {
 
 @media screen and (max-width: 1250px) {
     a.next_button {
+        display: none;
+    }
+}
+
+/* at a height of 470px, the text_container will disappear */
+@media screen and (max-height: 470px) {
+    #text_container {
         display: none;
     }
 }

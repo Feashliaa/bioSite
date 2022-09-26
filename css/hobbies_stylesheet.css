@@ -56,7 +56,7 @@
     }
 }
 
-@media screen and (max-height: 810px) {
+@media screen and (max-height: 895px) {
     #writing {
         display: none;
     }
@@ -76,6 +76,13 @@
         display: none;
     }
 
+    #text_container {
+        display: none;
+    }
+}
+
+/* at a height of 470px, the text_container will disappear */
+@media screen and (max-height: 470px) {
     #text_container {
         display: none;
     }

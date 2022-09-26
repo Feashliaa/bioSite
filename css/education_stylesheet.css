@@ -48,7 +48,7 @@
 /* media queries */
 
 /* at a height of 810px, the text_container will disappear */
-@media screen and (max-height: 810px) {
+@media screen and (max-height: 895px) {
     #college {
         display: none;
     }
@@ -70,12 +70,15 @@
     }
 }
 
-/* at 430px, the next image will disappear */
-@media screen and (max-height: 430px) {
+/* at a height of 470px, the text_container will disappear */
+@media screen and (max-height: 470px) {
     #text_container {
         display: none;
     }
+}
 
+/* at 430px, the next image will disappear */
+@media screen and (max-height: 430px) {
     a.next_button {
         display: none;
     }

@@ -60,7 +60,7 @@
 }
 
 /* at 810px, the house image and dexter_2 image will be hidden */
-@media(max-height: 810px) {
+@media(max-height: 895px) {
     #house_image {
         display: none;
     }
@@ -72,6 +72,13 @@
     #text_container {
         /* transform down 50% of the height of the container */
         transform: translateY(-25%);
+    }
+}
+
+/* at a height of 470px, the text_container will disappear */
+@media screen and (max-height: 470px) {
+    #text_container {
+        display: none;
     }
 }
 
