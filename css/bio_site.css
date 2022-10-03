@@ -205,7 +205,7 @@ div.contents_block_mobile {
         transform: translate(2%, -40%);
 
         /* set the background to nick.png, make it fit in the portrait div, and center it */
-        background: url("images/nick.png") no-repeat center center;
+        background: url("../images/nick.png") no-repeat center center;
         background-size: cover;
 
         box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
